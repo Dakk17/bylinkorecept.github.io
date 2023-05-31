@@ -50,11 +50,11 @@ header{
 }
 
 .navbar ul li{ 
-    font-size: 20px;   
+    font-size: 16.5px;   
     position: relative;
     list-style: none; 
     display: inline-block;       
-    margin:0 15px;
+    margin:0 12px;
     
 }
 
@@ -168,11 +168,11 @@ button:hover{
 }
 
 .navbar1 ul li{     
-    font-size: 20px;   
+    font-size: 16.5px;   
     position: relative;
     list-style: none; 
     display: inline-block;       
-    margin:0 15px;
+    margin:0 12px;
     
 }
 
