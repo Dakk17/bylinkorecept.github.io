@@ -49,12 +49,53 @@ header{
      
 }
 
+@media (max-width: 768px) {
+    .navbar  {
+      flex-direction: column;
+    }
+    .navbar li {
+        font-size: 13px;
+        margin: 0 8.5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar  {
+      flex-direction: column;
+    }
+    .navbar li {
+        font-size: 10px;
+        margin: 0 8px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar1  {
+      flex-direction: column;
+    }
+    .navbar1 li {
+        font-size: 13px;
+        margin: 0 8.5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar1  {
+      flex-direction: column;
+    }
+    .navbar1 li {
+        font-size: 10px;
+        margin: 0 8px;
+    }
+}
+
+
 .navbar ul li{ 
-    font-size: 16.5px;   
+    font-size: 20px;   
     position: relative;
     list-style: none; 
     display: inline-block;       
-    margin:0 12px;
+    margin:0 15px;
     
 }
 
@@ -168,11 +209,11 @@ button:hover{
 }
 
 .navbar1 ul li{     
-    font-size: 16.5px;   
+    font-size: 20px;   
     position: relative;
     list-style: none; 
     display: inline-block;       
-    margin:0 12px;
+    margin:0 15px;
     
 }
 
