@@ -1,22 +1,36 @@
 @import url("https://font.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 
+*{
+    font-family: "Poppins",sans-serif;
+}
+
 body { 
     background-color: white;
     margin: 0px;
     overflow-x: hidden;
+    
+}
 
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+  }
+
+header{
+    width: 100vw;
+    height: 100vh;
 }
 
 .container {
-    text-transform: uppercase;
-    font-family: "Poppins",sans-serif;
+    text-transform: uppercase;    
     position: relative;
     text-align: center;    
     background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)) ,url("images/background2.jpg");
     background-size:cover;    
     background-position: center;    
     height: 100vh;
-    width: 100%;     
+    width: 100%;   
+      
 
 }
 
@@ -118,7 +132,7 @@ button:hover{
 /*                                      NOVÁ STRANA                           */
 
 .body1 {
-    background-color: #a1a1a1;    
+    background-color: rgb(207, 195, 183);    
     margin: 0px;    
 }
 
@@ -138,7 +152,8 @@ button:hover{
     margin-top: 0;
     height: 18%;
     width: 100%;
-    background-color:rgba(0,0,0,0.3);
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)) ,url("images/background2.jpg");
+    background-size:cover ;
     padding: 0;
 }   
 
@@ -189,7 +204,7 @@ button:hover{
 }
 
 .nazev1 {
-    color: #444;
+    color: #9c815d;
 }
 
 .slozeni1 {
@@ -222,6 +237,7 @@ li {
 
 
 .gallery {
+    margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 sloupce */
     grid-gap: 10px; /* mezera mezi obrázky */
@@ -242,3 +258,46 @@ li {
     padding: 20px;    
  
 }
+
+footer{    
+    color: white;
+    background-color: #2e2d2d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    position: relative;
+    font-size: 18px;
+    padding: 1.2%;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+    /* Přizpůsobení na menší zařízení */
+    footer {
+      margin-top: 10%;
+    }
+}
+  
+@media (max-width: 480px) {
+    /* Přizpůsobení na ještě menší zařízení */
+    footer {
+      margin-top: 5%;
+    }
+}
+
+
+.footer-container {    
+    background-color: #4a4a4a67;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    position: relative;
+    font-size: 18px;
+    padding: 2.5%;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+
