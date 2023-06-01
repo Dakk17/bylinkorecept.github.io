@@ -70,9 +70,9 @@ header{
 }
 
 @media (max-width: 768px) {
-    .navbar1  {
-      flex-direction: column;
-    }
+    
+     
+    
     .navbar1 li {
         font-size: 13px;
         margin: 0 8.5px;
@@ -80,9 +80,7 @@ header{
 }
 
 @media (max-width: 480px) {
-    .navbar1  {
-      flex-direction: column;
-    }
+
     .navbar1 li {
         font-size: 10px;
         margin: 0 8px;
