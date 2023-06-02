@@ -49,43 +49,6 @@ header{
      
 }
 
-@media (max-width: 768px) {
-    .navbar  {
-      flex-direction: column;
-    }
-    .navbar li {
-        font-size: 13px;
-        margin: 0 8.5px;
-    }
-}
-
-@media (max-width: 480px) {
-    .navbar  {
-      flex-direction: column;
-    }
-    .navbar li {
-        font-size: 10px;
-        margin: 0 8px;
-    }
-}
-
-@media (max-width: 768px) {
-    
-     
-    
-    .navbar1 li {
-        font-size: 13px;
-        margin: 0 8.5px;
-    }
-}
-
-@media (max-width: 480px) {
-
-    .navbar1 li {
-        font-size: 10px;
-        margin: 0 8px;
-    }
-}
 
 
 .navbar ul li{ 
@@ -233,6 +196,93 @@ button:hover{
 
 .navbar1 ul li:hover::after{
     width: 100%;
+}
+
+
+@media(max-width:1250px) {
+    .recipe{
+        font-size: 15px;    
+    }
+    .postup1{
+        
+        font-size: 15px;
+        
+    }
+}
+
+
+@media (max-width: 1180px) {
+
+    .logo{
+        width: 180px;
+    }
+
+    .navbar{
+
+        margin: 0;
+    }
+
+    .navbar ul li {
+        flex-direction: column;
+        font-size: 10px;
+        margin: 0 8.5px;
+    }
+
+    .navbar1{        
+        margin: 0
+    }
+
+    .navbar1 ul li {
+        flex-direction: column;
+        font-size: 10px;
+        margin: 0 8.5px;
+    }
+    .header{
+        width: 100vw;
+        height: 19%;    
+    }  
+}
+
+@media (max-width: 768px) {
+
+    .navbar ul li {
+        flex-direction: column;
+        font-size: 11px;
+        margin: 0 8.5px;
+    }
+    
+    .logo{
+        width: 120px;
+    }
+
+    .navbar1 ul li {
+        flex-direction: column;
+        font-size: 5px;
+        margin: 0 8.5px;
+    }
+
+    .header{
+        width: 100vw;
+        height: 19%;    
+    }  
+}
+
+@media (max-width: 480px) {
+
+    .navbar ul li {
+        font-size: 5px;
+        margin: 0 8px;
+    }
+
+    .navbar1 ul li {
+        font-size: 5px;
+        margin: 0 8px;
+    }
+
+    .header{
+        width: 100vw;
+        height: 32%;
+    }   
 }
 
 .recipe {    
