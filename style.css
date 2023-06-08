@@ -152,7 +152,7 @@ button:hover{
 
 .header{
     margin-top: 0;
-    height: 18%;
+    height: 23%;
     width: 100%;
     background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)) ,url("images/background2.jpg");
     background-size:cover ;
@@ -163,7 +163,7 @@ button:hover{
     width: 85%;
     margin: auto;    
     text-align: center;    
-    padding: 15px 0;
+    padding: 0px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -239,7 +239,7 @@ button:hover{
     }
     .header{
         width: 100vw;
-        height: 19%;    
+        height: 23%;    
     }  
 }
 
@@ -263,7 +263,31 @@ button:hover{
 
     .header{
         width: 100vw;
-        height: 19%;    
+        height: 18%;    
+    }  
+}
+
+@media (max-width: 768px) {
+
+    .navbar ul li {
+        flex-direction: column;
+        font-size: 11px;
+        margin: 0 8.5px;
+    }
+    
+    .logo{
+        width: 120px;
+    }
+
+    .navbar1 ul li {
+        flex-direction: column;
+        font-size: 5px;
+        margin: 0 8.5px;
+    }
+
+    .header{
+        width: 100vw;
+        height: 18%;    
     }  
 }
 
@@ -281,7 +305,7 @@ button:hover{
 
     .header{
         width: 100vw;
-        height: 32%;
+        height: 18%;
     }   
 }
 
@@ -374,13 +398,26 @@ li {
     }
 
 }
+@media (max-width: 590px) {
+    .gdpr pre {
+      font-size: 6px;
+    }
+    
+}
 
 @media (max-width: 480px) {
     .gdpr pre {
       font-size: 5px;
     }
-    
 }
+
+@media (max-width: 430px) {
+    .gdpr pre {
+      font-size: 4.5px;
+    }
+}
+
+
 
 footer{    
     color: white;
