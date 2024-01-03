@@ -1,1 +1,1 @@
-# bylinkorecept.github.io
+https://dakk17.github.io/bylinorecept.github.io/
